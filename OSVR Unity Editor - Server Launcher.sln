@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSVR Unity Editor - Server Launcher.CSharp", "OSVR Unity Editor - Server Launcher.CSharp.csproj", "{2374BFD4-150F-AF38-3F94-D585554A12D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSVR Unity Editor - Server Launcher.CSharp.Editor", "OSVR Unity Editor - Server Launcher.CSharp.Editor.csproj", "{AAB6624E-62DE-E5BB-A89D-6237E7382381}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2374BFD4-150F-AF38-3F94-D585554A12D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2374BFD4-150F-AF38-3F94-D585554A12D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2374BFD4-150F-AF38-3F94-D585554A12D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2374BFD4-150F-AF38-3F94-D585554A12D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB6624E-62DE-E5BB-A89D-6237E7382381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB6624E-62DE-E5BB-A89D-6237E7382381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB6624E-62DE-E5BB-A89D-6237E7382381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB6624E-62DE-E5BB-A89D-6237E7382381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
