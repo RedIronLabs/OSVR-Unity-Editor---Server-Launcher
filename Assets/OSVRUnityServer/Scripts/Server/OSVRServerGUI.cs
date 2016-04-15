@@ -16,12 +16,15 @@ public class OSVRServerGUI : MonoBehaviour
     public Button SaveLaunchButton;
     public Button CloseButton;
 
+    public bool LaunchServerOnStart = false;
+
     /// <summary>
     /// Started, time to load data
     /// </summary>
     private void Start()
     {
         Load();
+        TryLaunch();
     }
 
     /// <summary>
@@ -76,6 +79,12 @@ public class OSVRServerGUI : MonoBehaviour
         OSVRServerPaths.Save();
         // Executed in case the paths changed in the CheckPath method
         PostLoadUpdate();
+    }
+
+    public void TryLaunch()
+    {
+        if (LaunchServerOnStart && !string.IsNullOrEmpty(OSVRServerPaths.Path))
+            OSVRServerPaths.Launch();
     }
 
     /// <summary>

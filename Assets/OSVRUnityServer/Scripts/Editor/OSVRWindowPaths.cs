@@ -4,7 +4,6 @@ using UnityEditor;
 /// <summary>
 /// Sets an Editor GUI window for setting up execution
 /// NOTE:  Place this in /Scripts/Editor
-/// @kerm_ed | Red Iron Labs Ltd.
 /// </summary>
 public class OSVRWindowPaths : EditorWindow
 {
@@ -43,19 +42,17 @@ public class OSVRWindowPaths : EditorWindow
             OSVRServerPaths.Save();
             OSVRServerPaths.Launch();
         }
-
         if (GUILayout.Button("Save"))
         {
             OSVRServerPaths.CheckPath();
             OSVRServerPaths.Save();
         }
-
         if (GUILayout.Button("Close"))
         {
             Quit();
         }
     }
-
+    
     /// <summary>
     /// User has exited the window
     /// </summary>
@@ -63,4 +60,6 @@ public class OSVRWindowPaths : EditorWindow
     {
         Close();
     }
+
+
 }
